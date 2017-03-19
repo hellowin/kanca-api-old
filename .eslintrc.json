@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended"
+  ],
+  "settings": {
+    "import/resolver": "webpack"
+  },
+  "plugins": [
+    "flowtype"
+  ],
+  "rules": {
+    "max-len": "warn",
+    "import/extensions": "off",
+    "arrow-parens": "off"
+  }
+}

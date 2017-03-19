@@ -1,0 +1,10 @@
+{
+  "globals": {
+    "test": true,
+    "describe": true,
+    "expect": true,
+    "beforeAll": true,
+    "afterAll": true,
+    "jasmine": true
+  }
+}
