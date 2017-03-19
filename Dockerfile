@@ -4,7 +4,7 @@ MAINTAINER Andi N. Dirgantara <andi.nugroho@salestock.id>
 
 # install host utilities
 RUN apt-get update
-RUN apt-get install ocaml libelf-dev
+RUN apt-get install ocaml libelf-dev -y
 
 # install PM2 and update NPM
 RUN npm install -g pm2
