@@ -7,7 +7,7 @@ import { user as userOrm, group as groupOrm, groupFeed as groupFeedOrm } from 'i
 
 // variable used in test
 const appToken = config.fbAppToken;
-const userToken = 'EAAFhcjTi6hIBACWDZCvZC3eST0WoxI2MoODE7n5DhnbM7ZCRgg8ZCuu6KvjzU7dIymP8MGiFfbAsN5HWdnQDlfvZAGu3pfeWg4nLbRm8Hme8JAYepTbIHZCZB93gKAbAUOuiDuroPcH3OSZAOasZAIHoxWRPtbPLL8Xtu3bBlsXIbExUYWBwDpZCac6qrfEmL6EmcZD';
+const userToken = '';
 const groupId = '1920036621597031';
 const timeoutInterval = 30000;
 
@@ -26,7 +26,7 @@ afterAll(() => {
   jasmine.DEFAULT_TIMEOUT_INTERVAL = 5000;
 });
 
-describe.skip('Facebook integration test', () => {
+describe('Facebook integration test', () => {
   describe('graph interface', () => {
     test('check token validation', () => graph.debugToken(appToken, userToken)
       .then(res => {
