@@ -1,4 +1,4 @@
-// flow-typed signature: 670c5a7b22188d9364c9f4291a0b8626
+// flow-typed signature: 8886afa9e9c54072ed651acabb97f3ed
 // flow-typed version: <<STUB>>/eslint-import-resolver-webpack_v^0.8.1/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 

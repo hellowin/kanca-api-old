@@ -1,4 +1,4 @@
-// flow-typed signature: 65f258735107d8f3be598d9f5925388f
+// flow-typed signature: ba8603754bed57a92a60a079551ed427
 // flow-typed version: <<STUB>>/moment-timezone_v^0.5.11/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 
@@ -22,11 +22,11 @@ declare module 'moment-timezone' {
  * require those files directly. Feel free to delete any files that aren't
  * needed.
  */
-declare module 'moment-timezone/builds/moment-timezone-with-data-2010-2020' {
+declare module 'moment-timezone/builds/moment-timezone-with-data-2012-2022' {
   declare module.exports: any;
 }
 
-declare module 'moment-timezone/builds/moment-timezone-with-data-2010-2020.min' {
+declare module 'moment-timezone/builds/moment-timezone-with-data-2012-2022.min' {
   declare module.exports: any;
 }
 
@@ -51,11 +51,11 @@ declare module 'moment-timezone/moment-timezone' {
 }
 
 // Filename aliases
-declare module 'moment-timezone/builds/moment-timezone-with-data-2010-2020.js' {
-  declare module.exports: $Exports<'moment-timezone/builds/moment-timezone-with-data-2010-2020'>;
+declare module 'moment-timezone/builds/moment-timezone-with-data-2012-2022.js' {
+  declare module.exports: $Exports<'moment-timezone/builds/moment-timezone-with-data-2012-2022'>;
 }
-declare module 'moment-timezone/builds/moment-timezone-with-data-2010-2020.min.js' {
-  declare module.exports: $Exports<'moment-timezone/builds/moment-timezone-with-data-2010-2020.min'>;
+declare module 'moment-timezone/builds/moment-timezone-with-data-2012-2022.min.js' {
+  declare module.exports: $Exports<'moment-timezone/builds/moment-timezone-with-data-2012-2022.min'>;
 }
 declare module 'moment-timezone/builds/moment-timezone-with-data.js' {
   declare module.exports: $Exports<'moment-timezone/builds/moment-timezone-with-data'>;

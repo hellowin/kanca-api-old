@@ -1,4 +1,4 @@
-// flow-typed signature: c67177146f504eb80fad58d50d6d1303
+// flow-typed signature: c37d9c605b370c5bbc33c7f302610921
 // flow-typed version: <<STUB>>/sequelize_v^3.30.2/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 

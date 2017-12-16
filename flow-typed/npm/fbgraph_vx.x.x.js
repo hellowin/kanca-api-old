@@ -1,4 +1,4 @@
-// flow-typed signature: 9aa7b0a82fece1f021dcb7ffb06388c4
+// flow-typed signature: 2a65bf94e99ad098da4d6a448082ae2c
 // flow-typed version: <<STUB>>/fbgraph_v^1.4.1/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 

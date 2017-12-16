@@ -7,7 +7,7 @@
     "test": "jest --forceExit",
     "dev": "NODE_ENV=development HOST=http://localhost:8080 webpack --watch & nodemon index.js",
     "build": "NODE_ENV=production webpack",
-    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+    "flow": "flow"
   },
   "keywords": [
     "facebook",

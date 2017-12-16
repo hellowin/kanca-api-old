@@ -1,4 +1,4 @@
-// flow-typed signature: 91b874fe73e2bd8e706fe909a94f1999
+// flow-typed signature: 05361091cbe8d96f4d31541aa21f4add
 // flow-typed version: <<STUB>>/dotenv_v^4.0.0/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 

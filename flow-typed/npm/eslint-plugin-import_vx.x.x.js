@@ -1,4 +1,4 @@
-// flow-typed signature: 6aa72b267b236a84ef1428e7844f0925
+// flow-typed signature: c3063f60b4f8eeced15f58611a5868ae
 // flow-typed version: <<STUB>>/eslint-plugin-import_v^2.2.0/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 
@@ -78,6 +78,10 @@ declare module 'eslint-plugin-import/lib/rules/export' {
   declare module.exports: any;
 }
 
+declare module 'eslint-plugin-import/lib/rules/exports-last' {
+  declare module.exports: any;
+}
+
 declare module 'eslint-plugin-import/lib/rules/extensions' {
   declare module.exports: any;
 }
@@ -111,6 +115,10 @@ declare module 'eslint-plugin-import/lib/rules/no-absolute-path' {
 }
 
 declare module 'eslint-plugin-import/lib/rules/no-amd' {
+  declare module.exports: any;
+}
+
+declare module 'eslint-plugin-import/lib/rules/no-anonymous-default-export' {
   declare module.exports: any;
 }
 
@@ -237,6 +245,9 @@ declare module 'eslint-plugin-import/lib/rules/default.js' {
 declare module 'eslint-plugin-import/lib/rules/export.js' {
   declare module.exports: $Exports<'eslint-plugin-import/lib/rules/export'>;
 }
+declare module 'eslint-plugin-import/lib/rules/exports-last.js' {
+  declare module.exports: $Exports<'eslint-plugin-import/lib/rules/exports-last'>;
+}
 declare module 'eslint-plugin-import/lib/rules/extensions.js' {
   declare module.exports: $Exports<'eslint-plugin-import/lib/rules/extensions'>;
 }
@@ -263,6 +274,9 @@ declare module 'eslint-plugin-import/lib/rules/no-absolute-path.js' {
 }
 declare module 'eslint-plugin-import/lib/rules/no-amd.js' {
   declare module.exports: $Exports<'eslint-plugin-import/lib/rules/no-amd'>;
+}
+declare module 'eslint-plugin-import/lib/rules/no-anonymous-default-export.js' {
+  declare module.exports: $Exports<'eslint-plugin-import/lib/rules/no-anonymous-default-export'>;
 }
 declare module 'eslint-plugin-import/lib/rules/no-commonjs.js' {
   declare module.exports: $Exports<'eslint-plugin-import/lib/rules/no-commonjs'>;

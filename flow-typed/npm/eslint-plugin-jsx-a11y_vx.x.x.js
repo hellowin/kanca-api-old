@@ -1,4 +1,4 @@
-// flow-typed signature: e24d7ec837b23f24131144aea80db077
+// flow-typed signature: 0650d3116a8e754f47d562f8ebd82aeb
 // flow-typed version: <<STUB>>/eslint-plugin-jsx-a11y_v^4.0.0/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 

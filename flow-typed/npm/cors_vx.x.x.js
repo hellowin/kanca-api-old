@@ -1,4 +1,4 @@
-// flow-typed signature: ad4238a0127bdad8ed54ab37b5651508
+// flow-typed signature: e3f7d666aea43701446c0cfd61a8ae8d
 // flow-typed version: <<STUB>>/cors_v^2.8.1/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 
@@ -54,6 +54,10 @@ declare module 'cors/test/issue-31' {
   declare module.exports: any;
 }
 
+declare module 'cors/test/support/env' {
+  declare module.exports: any;
+}
+
 // Filename aliases
 declare module 'cors/lib/index.js' {
   declare module.exports: $Exports<'cors/lib/index'>;
@@ -78,4 +82,7 @@ declare module 'cors/test/issue-2.js' {
 }
 declare module 'cors/test/issue-31.js' {
   declare module.exports: $Exports<'cors/test/issue-31'>;
+}
+declare module 'cors/test/support/env.js' {
+  declare module.exports: $Exports<'cors/test/support/env'>;
 }

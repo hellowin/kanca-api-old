@@ -1,4 +1,4 @@
-// flow-typed signature: b01bab6f44db9177d449022bb5c22e3f
+// flow-typed signature: 04fa0f33e3d74db28b485ef99a8484cb
 // flow-typed version: <<STUB>>/npm_v^4.4.1/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 
@@ -295,10 +295,6 @@ declare module 'npm/lib/install/action/prepare' {
 }
 
 declare module 'npm/lib/install/action/remove' {
-  declare module.exports: any;
-}
-
-declare module 'npm/lib/install/action/test' {
   declare module.exports: any;
 }
 
@@ -674,6 +670,10 @@ declare module 'npm/lib/utils/module-name' {
   declare module.exports: any;
 }
 
+declare module 'npm/lib/utils/move' {
+  declare module.exports: any;
+}
+
 declare module 'npm/lib/utils/no-progress-while-running' {
   declare module.exports: any;
 }
@@ -687,6 +687,10 @@ declare module 'npm/lib/utils/package-id' {
 }
 
 declare module 'npm/lib/utils/parse-json' {
+  declare module.exports: any;
+}
+
+declare module 'npm/lib/utils/perf' {
   declare module.exports: any;
 }
 
@@ -823,6 +827,10 @@ declare module 'npm/test/tap/00-verify-bundle-deps' {
 }
 
 declare module 'npm/test/tap/00-verify-ls-ok' {
+  declare module.exports: any;
+}
+
+declare module 'npm/test/tap/00-verify-no-scoped' {
   declare module.exports: any;
 }
 
@@ -1938,6 +1946,10 @@ declare module 'npm/test/tap/verify-no-lifecycle-on-repo' {
   declare module.exports: any;
 }
 
+declare module 'npm/test/tap/version-allow-same-version' {
+  declare module.exports: any;
+}
+
 declare module 'npm/test/tap/version-from-git' {
   declare module.exports: any;
 }
@@ -2193,9 +2205,6 @@ declare module 'npm/lib/install/action/prepare.js' {
 }
 declare module 'npm/lib/install/action/remove.js' {
   declare module.exports: $Exports<'npm/lib/install/action/remove'>;
-}
-declare module 'npm/lib/install/action/test.js' {
-  declare module.exports: $Exports<'npm/lib/install/action/test'>;
 }
 declare module 'npm/lib/install/action/update-linked.js' {
   declare module.exports: $Exports<'npm/lib/install/action/update-linked'>;
@@ -2476,6 +2485,9 @@ declare module 'npm/lib/utils/metrics.js' {
 declare module 'npm/lib/utils/module-name.js' {
   declare module.exports: $Exports<'npm/lib/utils/module-name'>;
 }
+declare module 'npm/lib/utils/move.js' {
+  declare module.exports: $Exports<'npm/lib/utils/move'>;
+}
 declare module 'npm/lib/utils/no-progress-while-running.js' {
   declare module.exports: $Exports<'npm/lib/utils/no-progress-while-running'>;
 }
@@ -2487,6 +2499,9 @@ declare module 'npm/lib/utils/package-id.js' {
 }
 declare module 'npm/lib/utils/parse-json.js' {
   declare module.exports: $Exports<'npm/lib/utils/parse-json'>;
+}
+declare module 'npm/lib/utils/perf.js' {
+  declare module.exports: $Exports<'npm/lib/utils/perf'>;
 }
 declare module 'npm/lib/utils/pick-manifest-from-registry-metadata.js' {
   declare module.exports: $Exports<'npm/lib/utils/pick-manifest-from-registry-metadata'>;
@@ -2589,6 +2604,9 @@ declare module 'npm/test/tap/00-verify-bundle-deps.js' {
 }
 declare module 'npm/test/tap/00-verify-ls-ok.js' {
   declare module.exports: $Exports<'npm/test/tap/00-verify-ls-ok'>;
+}
+declare module 'npm/test/tap/00-verify-no-scoped.js' {
+  declare module.exports: $Exports<'npm/test/tap/00-verify-no-scoped'>;
 }
 declare module 'npm/test/tap/404-parent.js' {
   declare module.exports: $Exports<'npm/test/tap/404-parent'>;
@@ -3423,6 +3441,9 @@ declare module 'npm/test/tap/url-dependencies.js' {
 }
 declare module 'npm/test/tap/verify-no-lifecycle-on-repo.js' {
   declare module.exports: $Exports<'npm/test/tap/verify-no-lifecycle-on-repo'>;
+}
+declare module 'npm/test/tap/version-allow-same-version.js' {
+  declare module.exports: $Exports<'npm/test/tap/version-allow-same-version'>;
 }
 declare module 'npm/test/tap/version-from-git.js' {
   declare module.exports: $Exports<'npm/test/tap/version-from-git'>;

@@ -1,4 +1,4 @@
-// flow-typed signature: e855abd2ed4bfd505cdf68b6704f2d77
+// flow-typed signature: 24d4b500d1c478bc1261153aaf11dd1b
 // flow-typed version: <<STUB>>/babel-plugin-transform-flow-strip-types_v^6.22.0/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 

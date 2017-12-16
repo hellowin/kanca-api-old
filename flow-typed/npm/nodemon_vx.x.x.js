@@ -1,4 +1,4 @@
-// flow-typed signature: db7d18bcf594da2d088b61c2caeca59b
+// flow-typed signature: 54982060d3e12f99b989ff14557f36de
 // flow-typed version: <<STUB>>/nodemon_v^1.11.0/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 
@@ -23,6 +23,14 @@ declare module 'nodemon' {
  * needed.
  */
 declare module 'nodemon/bin/nodemon' {
+  declare module.exports: any;
+}
+
+declare module 'nodemon/commitlint.config' {
+  declare module.exports: any;
+}
+
+declare module 'nodemon/docs/index' {
   declare module.exports: any;
 }
 
@@ -126,13 +134,15 @@ declare module 'nodemon/lib/version' {
   declare module.exports: any;
 }
 
-declare module 'nodemon/web/index' {
-  declare module.exports: any;
-}
-
 // Filename aliases
 declare module 'nodemon/bin/nodemon.js' {
   declare module.exports: $Exports<'nodemon/bin/nodemon'>;
+}
+declare module 'nodemon/commitlint.config.js' {
+  declare module.exports: $Exports<'nodemon/commitlint.config'>;
+}
+declare module 'nodemon/docs/index.js' {
+  declare module.exports: $Exports<'nodemon/docs/index'>;
 }
 declare module 'nodemon/lib/cli/index.js' {
   declare module.exports: $Exports<'nodemon/lib/cli/index'>;
@@ -208,7 +218,4 @@ declare module 'nodemon/lib/utils/merge.js' {
 }
 declare module 'nodemon/lib/version.js' {
   declare module.exports: $Exports<'nodemon/lib/version'>;
-}
-declare module 'nodemon/web/index.js' {
-  declare module.exports: $Exports<'nodemon/web/index'>;
 }
