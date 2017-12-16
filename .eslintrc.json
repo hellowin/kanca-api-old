@@ -20,6 +20,7 @@
   "rules": {
     "max-len": "warn",
     "import/extensions": "off",
-    "arrow-parens": "off"
+    "arrow-parens": "off",
+    "linebreak-style": "off"
   }
 }

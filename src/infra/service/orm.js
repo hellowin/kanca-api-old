@@ -10,6 +10,9 @@ const orm = new Sequelize(
   config.db.password, {
     host: config.db.host,
     dialect: 'mysql',
+    dialectOptions: {
+      charset: 'utf8mb4',
+    },
     logging: () => {},
   },
 );

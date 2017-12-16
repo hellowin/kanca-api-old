@@ -7,9 +7,9 @@ import { user as userOrm, group as groupOrm, groupFeed as groupFeedOrm } from 'i
 
 // variable used in test
 const appToken = config.fbAppToken;
-const userToken = '';
+const userToken = process.env.USER_TOKEN || '';
 const groupId = '1920036621597031';
-const timeoutInterval = 30000;
+const timeoutInterval = 50000;
 
 const getUserByToken = (): Promise<User> =>
   graph.getProfile(userToken).then(fbUser => userRepo.readByFBId(fbUser.id));
@@ -57,7 +57,7 @@ describe('Facebook integration test', () => {
 
     test('set injected user as admin', () => {
       let user;
-      return getUserByToken().then(res => (user = res))
+      return getUserByToken().then(res => { user = res; })
       .then(() => userService.setAsAdminByEmail(user.email, config.appSecret))
       .then(() => userRepo.read(user.id))
       .then(modUser => {
